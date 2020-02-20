@@ -6,7 +6,7 @@
     <section>
       テスト：h1にクラスをあてて表示ずれの回避
     </section>
-    <div>
+    <div class="links">
       <router-link to="/page3">Page3へ</router-link>
       <router-link to="/">Topへ戻る</router-link>
     </div>

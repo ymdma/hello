@@ -23,6 +23,18 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
+a,
+a:visited,
+a:link{
+  color:#3b8070;
+  text-decoration: none;
+}
+a:hover{
+  color:#58bfa7;
+}
+a:active{
+  color:#68e4c7;
+}
 
 .button--green {
   display: inline-block;
@@ -56,4 +68,15 @@ html {
 h1{
   margin: 0 70px 0 0;
 }
+
+.links{
+  position: fixed;
+  bottom:0;
+  height:60px;
+  padding: 10px;
+  line-height:40px;
+  /* text-align: center; */
+  border:solid #ccc 1px;
+}
+
 </style>

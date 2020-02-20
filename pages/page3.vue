@@ -6,7 +6,7 @@
     <section>
       テスト：h1にクラスなし
     </section>
-    <div>
+    <div class="links">
       <router-link to="/page2">Page2へ</router-link>
       <router-link to="/">Topへ戻る</router-link>
     </div>
