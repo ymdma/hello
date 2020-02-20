@@ -52,4 +52,8 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+h1{
+  margin: 0 70px 0 0;
+}
 </style>

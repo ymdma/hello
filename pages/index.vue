@@ -6,10 +6,15 @@
       <Hello />
     </section>
 
-  <section class="message">
+  <section class="message"> 
     <h2>
       {{ message }}
     </h2>
+  </section>
+
+  <section class="links">
+    <router-link to="/page2">Page2へ移動</router-link>
+    <router-link to="/page3">Page3へ移動</router-link>
   </section>
 
   </div>
